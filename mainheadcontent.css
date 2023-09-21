@@ -1,0 +1,83 @@
+.headq{
+    font-size: 45px;
+    color:white;
+   border-bottom :5px solid rgb(1, 255, 170);
+   border-right: 5px solid rgb(1, 255, 170);
+   display: block;
+   width: 900px;
+   height: 125px;
+   position: relative;
+   left: 1vw;
+   top: 7vh;
+   font-family: 'Khand';
+   font-weight: bold;
+   
+}
+
+
+
+
+#helpline{
+    left: -5vw;
+}
+ @keyframes hoveanime {
+    5%{
+        color: rgb(253, 133, 54)  ;
+    }10%{
+        color: rgb(123, 255, 0) ;
+    }20%{
+        color:rgb(0, 255, 115)  ;
+    }30%{
+        color:  rgb(42, 147, 165);
+    }40%{
+        color:  rgb(135, 142, 235);
+    }50%{
+        color:rgb(132, 0, 255)  ;
+    }60%{
+        color: rgb(176, 12, 241) ;
+    }70%{
+        color: rgb(255, 0, 106) ;
+    }80%{
+        color:  rgb(252, 31, 61);
+    }90%{
+        color:  rgb(255, 167, 167);
+    }
+    100%{
+        color: rgb(172, 169, 168);
+    }
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+.text{
+    width: 65vw;padding-left: 1vw;
+    line-height: 30px;
+    color: white;
+    font-family: arial;
+    
+
+}
+#steps{
+    font-size: 45px;
+    color:white;
+   border-bottom :5px solid rgb(1, 255, 170);
+   border-top: 5px solid rgb(1, 255, 170);
+   display: block;
+   width: fit-content;
+   height: 70px;
+   position: relative;
+   left:  39vw;
+   top: 7vh;
+   font-family: 'Khand';
+   font-weight: bold;
+   padding-left: none;
+   border-right: none;
+
+}
+#stepsi{
+    padding-left: 3vw;
+    width: 90vw;
+}

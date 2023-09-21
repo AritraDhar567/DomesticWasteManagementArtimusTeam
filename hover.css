@@ -1,0 +1,122 @@
+.home:hover{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -4vh;
+    left: 42vw;
+    font-family: 'Bebas Neue';
+    font-size:large;
+    z-index: 100;
+    background-color: transparent;
+    border-bottom: 3px solid green;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: x-large;
+
+}.news:hover{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -4vh;
+    left: 44vw;
+    font-family: 'Bebas Neue';
+    font-size:large;
+    z-index: 100;
+    background-color: transparent;
+    border-bottom: 3px solid green;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: x-large;
+
+}.contact:hover{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -4vh;
+    left: 43vw;
+    font-family: 'Bebas Neue';
+    font-size:large;
+    z-index: 100;
+    background-color: transparent;
+    border-bottom: 3px solid green;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: x-large;
+
+}
+/* hover main */
+.mainhover{
+    background-color: black;
+    width: 900px;
+    height: fit-content;
+    box-sizing: border-box;
+    color: white;
+    border-top :5px solid rgb(1, 255, 170);
+    border-left: 5px solid rgb(1, 255, 170);
+    margin-left: 15px;
+    transition-property: all;
+    transition-duration: 2s;
+    
+   }
+   #hovertext{
+       display: none;
+       font-family: arial;
+       position: relative;
+       padding-top:48px;
+       
+    }  
+    .imgcontent{
+        z-index: 500;
+        position: absolute;
+        left: 995px;
+        top: -10vh;
+        height: 270px;
+        width: 270px;
+        transition-property: all;
+        transition-duration: 1s;
+        
+        
+    }
+    .imgcontent:hover{
+        left: 700px;
+        height: 500px;
+        width: 500px;
+        z-index: 1000;
+    }
+    #Biodegradable:hover{
+        left: 700px;
+        height: 500px;
+        width: 500px;
+        z-index: 1000;
+    }
+    /* } each img top 80 diff */
+    #Biodegradable{
+        z-index: 500;
+        position: absolute;
+        left: 995px;
+        top: 70vh;
+        height: 270px;
+        width: 270px;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    
+    
+   
+   .mainhover:hover{
+     height: fit-content;
+     width: 95vw;
+     color: white;
+    
+     
+     
+   
+   }
+   .mainhover:hover > #hovertext{
+       display:inline-block;
+       }
+
+     
+   
+   
+

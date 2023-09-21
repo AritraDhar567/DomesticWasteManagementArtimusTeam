@@ -1,0 +1,158 @@
+body{
+background-color: black;
+margin:  0px ;
+padding: 0px;
+}
+#search{
+    left: 58vw;
+    position: absolute;
+    top: 3vh;
+    color: #00ff4c;
+    height: 25px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    animation-duration: 10s;
+   animation-name: shoveanime;
+   animation-iteration-count: infinite;
+}
+
+
+.header{
+    color: #00ff4c;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+     background-color: transparent; 
+    width: 29vw;
+    top: -2vh;
+    padding-top: -3px; 
+    display: inline-block;
+    position: relative;
+    left: 3vw;
+    z-index: 100;
+    
+    
+}
+
+.blackbg{
+    background-color: #000000;
+    display: inline-block;
+    width: 99vw;
+    position: absolute;
+    top: 65vh;
+    height:1400vh;
+    z-index: -2;
+}
+.head123{
+    position: sticky;
+    z-index: 100;
+    
+}
+.listcheck{
+    position: absolute;
+    top: 359vh;
+    height: 235px;
+    width: 74px;
+    background-image: url(tick.gif);
+    background-size: contain;
+    background-repeat: repeat-y;
+    
+}
+
+
+
+
+.by{
+    
+    color:white;
+    background-color: transparent;
+    font-family: arial;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+    z-index: 100;
+}
+img{
+    height: 150vh;
+    width: 100vw;
+    background-size: contain;
+    position: absolute;
+    bottom: -50vh; right: 25vw;
+    z-index: -2;
+    transform: scaleX(1.5);
+
+    
+}
+
+.human{
+    z-index: 100;
+    color: white;
+    font-size: 70px;
+    font-family:'Bebas Neue' ;
+    display: inline-block;
+    
+    position: relative;
+    left: 54vw;
+
+}
+.home{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -4vh;
+    left: 42vw;
+    font-family: 'Bebas Neue';
+    font-size:large;
+    z-index: 100;
+    background-color: transparent;
+}
+.contact{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -4vh;
+    left: 43vw;
+    font-family: 'Bebas Neue';
+    font-size:large;
+    z-index: 100;
+    background-color: transparent;
+}
+.news{
+    display: inline-block;
+    position: relative;
+    color: white;
+    top: -4vh;
+    left: 44vw;
+    font-family: 'Bebas Neue';
+    font-size:large;
+    z-index: 100;
+    background-color: transparent;
+}
+@keyframes shoveanime {
+    5%{
+        border-color: rgb(253, 133, 54)  ;
+    }10%{
+        border-color: rgb(123, 255, 0) ;
+    }20%{
+        border-color:rgb(0, 255, 115)  ;
+    }30%{
+        border-color:  rgb(42, 147, 165);
+    }40%{
+        border-color:  rgb(135, 142, 235);
+    }50%{
+        border-color:rgb(132, 0, 255)  ;
+    }60%{
+        border-color: rgb(176, 12, 241) ;
+    }70%{
+        border-color: rgb(255, 0, 106) ;
+    }80%{
+        border-color:  rgb(252, 31, 61);
+    }90%{
+        border-color:  rgb(255, 167, 167);
+    }
+    100%{
+        border-color: rgb(172, 169, 168);
+    }
+  }
